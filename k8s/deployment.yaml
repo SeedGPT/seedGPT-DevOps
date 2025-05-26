@@ -16,7 +16,7 @@ spec:
             automountServiceAccountToken: false
             containers:
                 -   name: seedgpt
-                    image: "rhaversen/seedgpt:308713900efd2a9b243d7da02719d4568a07722a"
+                    image: "rhaversen/seedgpt:73415c28e7a7c1370ba1740b064ef8aad3edbf1a"
                     imagePullPolicy: Always
                     envFrom:
                         -   secretRef:
